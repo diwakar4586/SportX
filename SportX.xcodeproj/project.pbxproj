@@ -56,6 +56,7 @@
 		3FD9215F2BDD62810029C1D9 /* SportX */ = {
 			isa = PBXGroup;
 			children = (
+				3FD921742BDD63E10029C1D9 /* Data Model */,
 				3FD921602BDD62810029C1D9 /* AppDelegate.swift */,
 				3FD921622BDD62810029C1D9 /* SceneDelegate.swift */,
 				3FD921642BDD62810029C1D9 /* ViewController.swift */,
@@ -65,6 +66,13 @@
 				3FD9216E2BDD62820029C1D9 /* Info.plist */,
 			);
 			path = SportX;
+			sourceTree = "<group>";
+		};
+		3FD921742BDD63E10029C1D9 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
