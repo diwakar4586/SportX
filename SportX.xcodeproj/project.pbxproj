@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2A14EB2BDE323800F6BDBA /* SelectSportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A14EA2BDE323800F6BDBA /* SelectSportViewController.swift */; };
+		3F2A14ED2BDE327A00F6BDBA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A14EC2BDE327A00F6BDBA /* FirstViewController.swift */; };
+		3F2A14F12BDE3DF400F6BDBA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A14F02BDE3DF400F6BDBA /* HomeViewController.swift */; };
 		3FD921612BDD62810029C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD921602BDD62810029C1D9 /* AppDelegate.swift */; };
 		3FD921632BDD62810029C1D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD921622BDD62810029C1D9 /* SceneDelegate.swift */; };
 		3FD921652BDD62810029C1D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD921642BDD62810029C1D9 /* ViewController.swift */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F2A14EA2BDE323800F6BDBA /* SelectSportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSportViewController.swift; sourceTree = "<group>"; };
+		3F2A14EC2BDE327A00F6BDBA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3F2A14F02BDE3DF400F6BDBA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3FD9215D2BDD62810029C1D9 /* SportX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD921602BDD62810029C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FD921622BDD62810029C1D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +80,9 @@
 				3FD921692BDD62820029C1D9 /* Assets.xcassets */,
 				3FD9216B2BDD62820029C1D9 /* LaunchScreen.storyboard */,
 				3FD9216E2BDD62820029C1D9 /* Info.plist */,
+				3F2A14EA2BDE323800F6BDBA /* SelectSportViewController.swift */,
+				3F2A14EC2BDE327A00F6BDBA /* FirstViewController.swift */,
+				3F2A14F02BDE3DF400F6BDBA /* HomeViewController.swift */,
 			);
 			path = SportX;
 			sourceTree = "<group>";
@@ -162,10 +171,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FD921782BDD78370029C1D9 /* User.swift in Sources */,
+				3F2A14EB2BDE323800F6BDBA /* SelectSportViewController.swift in Sources */,
 				3FD921802BDD7E860029C1D9 /* TimeSlot.swift in Sources */,
 				3FD9217A2BDD7CF50029C1D9 /* Venue.swift in Sources */,
 				3FD921652BDD62810029C1D9 /* ViewController.swift in Sources */,
+				3F2A14ED2BDE327A00F6BDBA /* FirstViewController.swift in Sources */,
 				3FD921612BDD62810029C1D9 /* AppDelegate.swift in Sources */,
+				3F2A14F12BDE3DF400F6BDBA /* HomeViewController.swift in Sources */,
 				3FD9217E2BDD7DFE0029C1D9 /* BookVenue.swift in Sources */,
 				3FD921632BDD62810029C1D9 /* SceneDelegate.swift in Sources */,
 				3FD921822BDD7F510029C1D9 /* SportPreference.swift in Sources */,
