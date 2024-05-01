@@ -20,7 +20,6 @@
 		3FD921782BDD78370029C1D9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD921772BDD78370029C1D9 /* User.swift */; };
 		3FD9217A2BDD7CF50029C1D9 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD921792BDD7CF50029C1D9 /* Venue.swift */; };
 		3FD9217E2BDD7DFE0029C1D9 /* BookVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD9217D2BDD7DFE0029C1D9 /* BookVenue.swift */; };
-		3FD921802BDD7E860029C1D9 /* TimeSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD9217F2BDD7E860029C1D9 /* TimeSlot.swift */; };
 		3FD921822BDD7F510029C1D9 /* SportPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD921812BDD7F510029C1D9 /* SportPreference.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +39,6 @@
 		3FD921772BDD78370029C1D9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3FD921792BDD7CF50029C1D9 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 		3FD9217D2BDD7DFE0029C1D9 /* BookVenue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVenue.swift; sourceTree = "<group>"; };
-		3FD9217F2BDD7E860029C1D9 /* TimeSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlot.swift; sourceTree = "<group>"; };
 		3FD921812BDD7F510029C1D9 /* SportPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportPreference.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,7 +94,6 @@
 				3FD921772BDD78370029C1D9 /* User.swift */,
 				3FD921792BDD7CF50029C1D9 /* Venue.swift */,
 				3FD9217D2BDD7DFE0029C1D9 /* BookVenue.swift */,
-				3FD9217F2BDD7E860029C1D9 /* TimeSlot.swift */,
 				3FD921812BDD7F510029C1D9 /* SportPreference.swift */,
 			);
 			path = "Data Model";
@@ -175,7 +172,6 @@
 			files = (
 				3FD921782BDD78370029C1D9 /* User.swift in Sources */,
 				3F2A14EB2BDE323800F6BDBA /* SelectSportViewController.swift in Sources */,
-				3FD921802BDD7E860029C1D9 /* TimeSlot.swift in Sources */,
 				3FD9217A2BDD7CF50029C1D9 /* Venue.swift in Sources */,
 				3FD921652BDD62810029C1D9 /* ViewController.swift in Sources */,
 				3F2A14ED2BDE327A00F6BDBA /* FirstViewController.swift in Sources */,
