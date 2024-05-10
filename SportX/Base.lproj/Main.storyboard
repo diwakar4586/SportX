@@ -177,32 +177,23 @@ your preferences.</string>
             </objects>
             <point key="canvasLocation" x="1900" y="-2.1126760563380285"/>
         </scene>
-        <!--HOME-->
+        <!--Home-->
         <scene sceneID="8m1-Nv-VQC">
             <objects>
-                <viewController id="Fa0-0r-3SD" customClass="HomeViewController" customModule="SportX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Home" id="Fa0-0r-3SD" customClass="HomeViewController" customModule="SportX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ssk-Ir-RmC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bG4-wE-U6a">
-                                <rect key="frame" x="21" y="87" width="95" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="GfN-YH-Zd6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="HOME" image="house" catalog="system" id="esb-3K-nGt"/>
+                    <navigationItem key="navigationItem" title="Home" id="wdA-Xg-F7V"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0as-uT-SfC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1744" y="827"/>
+            <point key="canvasLocation" x="2605" y="827"/>
         </scene>
-        <!--Search-->
+        <!--Search View Controller-->
         <scene sceneID="6eY-ia-XDW">
             <objects>
                 <viewController id="wuB-nW-goe" customClass="SearchViewController" customModule="SportX" customModuleProvider="target" sceneMemberID="viewController">
@@ -265,7 +256,7 @@ your preferences.</string>
                         <viewLayoutGuide key="safeArea" id="Q4m-4R-vfW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="Xtl-sJ-heh"/>
+                    <navigationItem key="navigationItem" id="70d-NZ-4BY"/>
                     <connections>
                         <outlet property="firstView" destination="tNx-tU-8B1" id="i1v-NH-OM2"/>
                         <outlet property="secondView" destination="Bwa-dd-E2T" id="Rai-jE-Dwb"/>
@@ -273,7 +264,7 @@ your preferences.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s8e-GU-IKf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2554.9618320610684" y="826.76056338028172"/>
+            <point key="canvasLocation" x="4408.3969465648852" y="826.76056338028172"/>
         </scene>
         <!--Alerts-->
         <scene sceneID="6wh-g1-8c6">
@@ -298,7 +289,7 @@ your preferences.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FGz-hL-jHv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3387" y="827"/>
+            <point key="canvasLocation" x="5238.9312977099235" y="826.76056338028172"/>
         </scene>
         <!--Settings-->
         <scene sceneID="zi8-PI-Gro">
@@ -323,7 +314,7 @@ your preferences.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R1Q-rx-KsD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4223.6641221374048" y="826.76056338028172"/>
+            <point key="canvasLocation" x="6077.0992366412211" y="826.76056338028172"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2NE-uE-98b">
@@ -355,8 +346,8 @@ your preferences.</string>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Fa0-0r-3SD" kind="relationship" relationship="viewControllers" id="6W6-W5-Qfn"/>
-                        <segue destination="wuB-nW-goe" kind="relationship" relationship="viewControllers" id="mdw-GX-Wby"/>
+                        <segue destination="22n-pH-Ohb" kind="relationship" relationship="viewControllers" id="6W6-W5-Qfn"/>
+                        <segue destination="2GF-9K-5eR" kind="relationship" relationship="viewControllers" id="mdw-GX-Wby"/>
                         <segue destination="Rzj-Zp-rpq" kind="relationship" relationship="viewControllers" id="YC3-hu-FCP"/>
                         <segue destination="bJC-P4-4UG" kind="relationship" relationship="viewControllers" id="K4U-mO-CgN"/>
                     </connections>
@@ -429,6 +420,44 @@ your preferences.</string>
             </objects>
             <point key="canvasLocation" x="2212.9770992366412" y="1457.7464788732395"/>
         </scene>
+        <!--HOME-->
+        <scene sceneID="zg8-fq-sD1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="22n-pH-Ohb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="HOME" image="house" catalog="system" id="esb-3K-nGt"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="bKi-ot-Y8H">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Fa0-0r-3SD" kind="relationship" relationship="rootViewController" id="NEN-xu-G9A"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cpz-Dk-Tru" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1742.7480916030534" y="826.76056338028172"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="sRH-76-gGM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2GF-9K-5eR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="Xtl-sJ-heh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3LR-R3-8sB">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wuB-nW-goe" kind="relationship" relationship="rootViewController" id="6sD-P6-6Qt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ML-aV-am3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3481.679389312977" y="826.76056338028172"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Screenshot 2024-04-28 at 10.42.28 PM" width="174" height="124"/>
@@ -444,10 +473,10 @@ your preferences.</string>
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
