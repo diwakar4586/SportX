@@ -20,8 +20,10 @@
 		3FD921782BDD78370029C1D9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD921772BDD78370029C1D9 /* User.swift */; };
 		3FD9217A2BDD7CF50029C1D9 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD921792BDD7CF50029C1D9 /* Venue.swift */; };
 		3FD9217E2BDD7DFE0029C1D9 /* BookVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD9217D2BDD7DFE0029C1D9 /* BookVenue.swift */; };
-		3FD921802BDD7E860029C1D9 /* TimeSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD9217F2BDD7E860029C1D9 /* TimeSlot.swift */; };
 		3FD921822BDD7F510029C1D9 /* SportPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD921812BDD7F510029C1D9 /* SportPreference.swift */; };
+		64BE9CF92BEFF47200546389 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BE9CF82BEFF47200546389 /* CreateEventViewController.swift */; };
+		64BE9CFB2BEFF8EA00546389 /* CustomSidebarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BE9CFA2BEFF8EA00546389 /* CustomSidebarTableViewCell.swift */; };
+		64BE9CFD2BEFF90F00546389 /* CustomActionItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BE9CFC2BEFF90F00546389 /* CustomActionItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +42,10 @@
 		3FD921772BDD78370029C1D9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3FD921792BDD7CF50029C1D9 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 		3FD9217D2BDD7DFE0029C1D9 /* BookVenue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVenue.swift; sourceTree = "<group>"; };
-		3FD9217F2BDD7E860029C1D9 /* TimeSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlot.swift; sourceTree = "<group>"; };
 		3FD921812BDD7F510029C1D9 /* SportPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportPreference.swift; sourceTree = "<group>"; };
+		64BE9CF82BEFF47200546389 /* CreateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		64BE9CFA2BEFF8EA00546389 /* CustomSidebarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSidebarTableViewCell.swift; sourceTree = "<group>"; };
+		64BE9CFC2BEFF90F00546389 /* CustomActionItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActionItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,9 @@
 				3F2A14EC2BDE327A00F6BDBA /* FirstViewController.swift */,
 				3F2A14F02BDE3DF400F6BDBA /* HomeViewController.swift */,
 				3F2CD24F2BDEAAC100A9AEAF /* SearchViewController.swift */,
+				64BE9CF82BEFF47200546389 /* CreateEventViewController.swift */,
+				64BE9CFA2BEFF8EA00546389 /* CustomSidebarTableViewCell.swift */,
+				64BE9CFC2BEFF90F00546389 /* CustomActionItemTableViewCell.swift */,
 			);
 			path = SportX;
 			sourceTree = "<group>";
@@ -96,7 +103,6 @@
 				3FD921772BDD78370029C1D9 /* User.swift */,
 				3FD921792BDD7CF50029C1D9 /* Venue.swift */,
 				3FD9217D2BDD7DFE0029C1D9 /* BookVenue.swift */,
-				3FD9217F2BDD7E860029C1D9 /* TimeSlot.swift */,
 				3FD921812BDD7F510029C1D9 /* SportPreference.swift */,
 			);
 			path = "Data Model";
@@ -175,13 +181,15 @@
 			files = (
 				3FD921782BDD78370029C1D9 /* User.swift in Sources */,
 				3F2A14EB2BDE323800F6BDBA /* SelectSportViewController.swift in Sources */,
-				3FD921802BDD7E860029C1D9 /* TimeSlot.swift in Sources */,
 				3FD9217A2BDD7CF50029C1D9 /* Venue.swift in Sources */,
 				3FD921652BDD62810029C1D9 /* ViewController.swift in Sources */,
 				3F2A14ED2BDE327A00F6BDBA /* FirstViewController.swift in Sources */,
+				64BE9CF92BEFF47200546389 /* CreateEventViewController.swift in Sources */,
 				3F2CD2502BDEAAC100A9AEAF /* SearchViewController.swift in Sources */,
+				64BE9CFB2BEFF8EA00546389 /* CustomSidebarTableViewCell.swift in Sources */,
 				3FD921612BDD62810029C1D9 /* AppDelegate.swift in Sources */,
 				3F2A14F12BDE3DF400F6BDBA /* HomeViewController.swift in Sources */,
+				64BE9CFD2BEFF90F00546389 /* CustomActionItemTableViewCell.swift in Sources */,
 				3FD9217E2BDD7DFE0029C1D9 /* BookVenue.swift in Sources */,
 				3FD921632BDD62810029C1D9 /* SceneDelegate.swift in Sources */,
 				3FD921822BDD7F510029C1D9 /* SportPreference.swift in Sources */,

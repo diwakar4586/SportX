@@ -13,8 +13,8 @@ struct Venue {
     var phoneNumber: Int64
     var sportName:String
     
-    func getAvailableSlots(forDate date: Date) -> [TimeSlot] {
-        // will update later
-        return []
-    }
+//    func getAvailableSlots(forDate date: Date) -> [] {
+//        // will update later
+//        return []
+//    }
 }
