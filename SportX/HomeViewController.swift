@@ -13,6 +13,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.navigationController?.navigationItem.hidesBackButton = true
     }
     
     @IBAction func unwindToStartingViewController(_ unwindSegue: UIStoryboardSegue) {
