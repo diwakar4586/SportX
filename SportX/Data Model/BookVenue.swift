@@ -11,7 +11,7 @@ struct BookVenue {
     var userId: String
     var venueId: String
     var date: Date
-//    var timeSlot: TimeSlot
+    var timeSlot: TimeSlot
     
     func calculateCost() -> Double {
         //will update later
